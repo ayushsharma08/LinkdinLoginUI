@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"
+    />
+  </head>
+  <body>
+    <div
+      class="container md:mx-auto h-auto w-[410px] flex items-start justify-center flex-col shadow-lg shadow-emerald-600 py-[15px] px-[60px] mt-[80px]  "
+    >
+      <h2 class="text-2xl font-bold-600 pb-[20px]">Welcome back</h2>
+      <div class="user_box flex space-x-5 mb-[1rem]">
+        <img
+          class="w-10 h-10 rounded-full"
+          src="data:image/jpeg;base64,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"
+          alt="Rounded avatar"
+        />
+        <div class="details">
+          <h4 class="text-md">Danish Khan</h4>
+          <p class="text-gray-500">d****@gmail.com</p>
+        </div>
+        <a class="text-gray-500 text-lg pl-[4rem]">...</a>
+      </div>
+      <!-- passward section -->
+      <div
+        class="passward border-[3px] border-blue-600 rounded-md mb-[1rem] w-full"
+      >
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="passward"
+          size="29px"
+          height="15px"
+          class="leading-9"
+        />
+        <span class="text-sm text-blue-600 text-bold items-end">show</span>
+      </div>
+      <a href="#" class="text-blue-600 mb-[1rem]">Forget Passward ?</a>
+      <button
+        class="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-[117px] w-full rounded-2xl mb-[1rem]"
+      >
+        Sign in
+      </button>
+      <!-- or section -->
+
+      <div class="relative w-[90%] text-center">
+        <hr
+          class="absolute top-[7px] left-[0px] w-[45%] border-t-[3px] border-gray-400"
+        />
+        <span class="inline-block text-lg leading-[0px]">OR</span>
+        <hr
+          class="absolute top-[7px] right-[0px] w-[45%] border-t-[3px] border-gray-400"
+        />
+      </div>
+
+      <!-- button -->
+
+      <button
+        class="bg-white border-2 border-gray-400 text-gray-500 font-medium py-2 px-[17px] w-full rounded-2xl mb-[1rem]"
+      >
+        <svg
+          class="inline-block w-4"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+          />
+        </svg>
+
+        <span>Sign In With a one-time link </span>
+      </button>
+      <button
+        class="bg-white border-2 border-gray-400 text-gray-500 font-medium py-2 px-[17px] w-full rounded-2xl mb-[1rem]"
+      >
+        <i
+          class="fab fa-google fa-1x "
+          style="
+            background: conic-gradient(
+                from -45deg,
+                #ea4335 110deg,
+                #4285f4 90deg 180deg,
+                #34a853 180deg 270deg,
+                #fbbc05 270deg
+              )
+              73% 55%/150% 150% no-repeat;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            -webkit-text-fill-color: transparent;
+          "
+        ></i>
+
+        <span>Sign In With Google </span>
+      </button>
+      <!-- or section -->
+      <div class="relative w-[90%] text-center">
+        <hr
+          class="absolute top-[7px] left-[0px] w-[45%] border-t-[3px] border-gray-400"
+        />
+        <span class="inline-block text-lg leading-[0px]">OR</span>
+        <hr
+          class="absolute top-[7px] right-[0px] w-[45%] border-t-[3px] border-gray-400"
+        />
+      </div>
+
+      <!-- Footer -->
+
+      <p class="md:text-blue-600 font-medium text-center pl-[2.5rem] ">
+        Sign in using another account
+      </p>
+
+    </div>
+  </body>
+</html>
